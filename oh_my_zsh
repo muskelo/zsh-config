@@ -1,0 +1,24 @@
+export ZSH="/home/muskelo/.oh-my-zsh"
+
+ZSH_THEME="af-magic"
+
+# zsh plugins
+plugins=(
+        vi-mode
+        git
+        tmux
+        sudo
+        pip
+        npm
+        man
+        history
+        git-prompt
+        github 
+        docker
+        docker-compose
+        )
+
+source $ZSH/oh-my-zsh.sh
+
+# for vi-mode plugin
+VI_MODE_SET_CURSOR=true
