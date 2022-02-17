@@ -12,3 +12,6 @@ fi
 if [[ -f "$ZDOTDIR/aliases" ]]; then
     source "$ZDOTDIR/aliases";
 fi
+
+
+export PATH="$HOME/.poetry/bin:$PATH"
