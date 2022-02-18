@@ -1,3 +1,5 @@
+ZDOTDIR='~/.config.zsh'
+
 # import oh_my_zsh
 if [[ -f "$ZDOTDIR/oh_my_zsh" ]]; then
     source "$ZDOTDIR/oh_my_zsh";
