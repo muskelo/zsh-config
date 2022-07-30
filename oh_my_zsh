@@ -17,6 +17,7 @@ plugins=(
         docker
         docker-compose
         poetry
+        golang
         )
 
 source $ZSH/oh-my-zsh.sh
