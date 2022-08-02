@@ -1,16 +1,22 @@
 # zsh-config
 
-## Установка
-
-1. Скачивание
->git clone https://github.com/Muskelo/zsh-config.git ~/.config/zsh
-2. Создаем ссылку
->ln -s ~/.config/zsh/.zshrc ~/.zshrc   
-
-
 ## Подготовка
 
 1. Установите zsh
-2. Уcтановите oh my zsh
-3. Рекомендую поставить zsh консолью по умолчанию
+2. Уcтановите oh-my-zsh https://github.com/ohmyzsh/ohmyzsh
+3. По желанию поставьте zsh консолью по умолчанию
 
+## Установка
+
+1. Скачивайте конфиг
+```
+git clone https://github.com/Muskelo/zsh-config.git ~/.config/zsh
+```
+2. Удалите (или переместите) текущий конфиг zsh
+```
+rm ~/.zshrc
+```
+3. Создайте ссылку на скачанный конфиг
+```
+ln -s ~/.config/zsh/init ~/.zshrc
+```
