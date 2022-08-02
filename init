@@ -1,11 +1,11 @@
 ZDOTDIR=~/.config/zsh
 
-# import oh_my_zsh
+# import oh_my_zsh config
 if [[ -f "$ZDOTDIR/oh_my_zsh" ]]; then
     source "$ZDOTDIR/oh_my_zsh";
 fi
 
-# import env 
+# import env vars
 if [[ -f "$ZDOTDIR/env" ]]; then
     source "$ZDOTDIR/env";
 fi

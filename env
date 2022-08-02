@@ -1,3 +1,5 @@
 export EDITOR='nvim'
+
+#python dev
 export PATH="$HOME/.poetry/bin:$PATH"
 export FLASK_ENV=development
