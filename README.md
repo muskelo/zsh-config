@@ -10,7 +10,7 @@
 
 1. Скачивайте конфиг
 ```
-git clone https://github.com/Muskelo/zsh-config.git ~/.config/zsh
+git clone git@github.com:muskelo/zsh-config.git ~/.config/zsh
 ```
 2. Удалите (или переместите) текущий конфиг zsh
 ```
