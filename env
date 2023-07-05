@@ -1,5 +1,9 @@
 export EDITOR='nvim'
+export PATH="$HOME/.local/bin:$PATH"
 
 #python dev
-export PATH="$HOME/.poetry/bin:$PATH"
 export FLASK_ENV=development
+
+# go dev
+export PATH="$HOME/go/bin:$PATH"
+export GOPATH="$HOME/go:$PATH"
