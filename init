@@ -1,4 +1,5 @@
 ZDOTDIR=~/.config/zsh
+unsetopt beep
 
 # import oh_my_zsh config
 if [[ -f "$ZDOTDIR/oh_my_zsh" ]]; then
